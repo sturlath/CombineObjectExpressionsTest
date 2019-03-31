@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombineObjectExpressions", "CombineObjectExpressions\CombineObjectExpressions.csproj", "{D64ABDDA-5698-453D-B5B4-52AFA2B21D63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionTests", "ExpressionTests\ExpressionTests.csproj", "{C4C83925-8828-4E5C-BCEE-DC97BF7A06FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D64ABDDA-5698-453D-B5B4-52AFA2B21D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64ABDDA-5698-453D-B5B4-52AFA2B21D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64ABDDA-5698-453D-B5B4-52AFA2B21D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64ABDDA-5698-453D-B5B4-52AFA2B21D63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4C83925-8828-4E5C-BCEE-DC97BF7A06FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C83925-8828-4E5C-BCEE-DC97BF7A06FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C83925-8828-4E5C-BCEE-DC97BF7A06FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C83925-8828-4E5C-BCEE-DC97BF7A06FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4FC0E1C-3D5D-4B30-88F4-97BA12E5283F}
+	EndGlobalSection
+EndGlobal
