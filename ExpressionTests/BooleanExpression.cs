@@ -40,5 +40,22 @@ namespace ExpressionTests
 
             filterCombined.Body.ToString().ShouldBe("((p => p.Info And p => p.Profile))"); //Something like this anyway...
         }
+
+
+        [TestMethod]
+        public void AutoMapperTestCaseThatWorks()
+        {
+            var expressionMethods = new ExpressionMethods();
+
+            expressionMethods.GetById(1, x => x.Info);
+        }
+
+        [TestMethod]
+        public void AutoMapperTestCaseThatFails()
+        {
+            var expressionMethods = new ExpressionMethods();
+
+            expressionMethods.GetById(1, x => x.Info, x => x.Profile);
+        }
     }
 }
