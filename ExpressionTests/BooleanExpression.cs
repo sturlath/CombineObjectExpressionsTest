@@ -41,12 +41,15 @@ namespace ExpressionTests
             filterCombined.Body.ToString().ShouldBe("((p => p.Info And p => p.Profile))"); //Something like this anyway...
         }
 
+        //---------------------------------------------------------------------------------------------//
+        // Tests below that show my original problem of mapping "params Expressions" with AutoMapper.
+        //---------------------------------------------------------------------------------------------//
 
         [TestMethod]
         public void AutoMapperTestCaseThatWorks()
         {
             var expressionMethods = new ExpressionMethods();
-
+            // Works with one
             expressionMethods.GetById(1, x => x.Info);
         }
 
@@ -54,7 +57,7 @@ namespace ExpressionTests
         public void AutoMapperTestCaseThatFails()
         {
             var expressionMethods = new ExpressionMethods();
-
+            // Doesn't work with many
             expressionMethods.GetById(1, x => x.Info, x => x.Profile);
         }
     }
