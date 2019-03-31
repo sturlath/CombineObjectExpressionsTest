@@ -8,3 +8,4 @@ I also filed an issue at [Atomapper](https://github.com/AutoMapper/AutoMapper/is
 
 The reason I was doing this was to control what [related data](https://docs.microsoft.com/en-us/ef/core/querying/related-data?fbclid=IwAR0bWnQ_nHyVxVVAc8vE7JYZmaQJ34i52AS0etPCXGAaYNTy67yA6uWJZIE) was loaded in my RazorPage (web layer) and getting that information down through my ServiceLayer to the RepositoryLayer where my Entity Framework is.
 
+This then ["Expression chaining"](http://stevesspace.com/2016/06/chaining-expressions-in-c/) looks promising.
