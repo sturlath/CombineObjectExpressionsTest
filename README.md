@@ -1,5 +1,5 @@
 # CombineObjectExpressionsTest
-Test project on how to comine object expressions
+Test project on how to combine object expressions
 
 Code for my [StackOverFlowQuestion](https://stackoverflow.com/questions/55440167/how-to-merge-object-expressions?noredirect=1#comment97597118_55440167) on how to combine two Expressions of object func :-)
 
